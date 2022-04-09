@@ -1,6 +1,6 @@
 # Crypto Dashboard   
 
-
+ ➡️  [Dashboard Page](https://greg-r0driguez.github.io/crypto_dashboard/)  ⬅️
 
 API from [Coin Gecko](https://www.coingecko.com/en/api)   
 Search box renders an information card from user input with cryptocurrency details.   
