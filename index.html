@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Crypto Dashboard</title>
+</head>
+<body>
+    <header class="header">
+        <h1><span>Crypto</span> Dashboard</h1>
+    </header>
+    <main> 
+        <form action="#" class="search-bar">
+            <label for="searchField">Coin Search</label>
+            <input 
+                required
+                type="text" 
+                id="searchField" 
+                placeholder="Type name and press enter">
+        </form>
+
+        <div id="searchResultsDiv"></div>
+
+        <div class="card-grid">
+            <div class="card">
+
+                <div class="card-image">
+                    <img src="https://source.unsplash.com/NHRM1u4GD_A" alt="bitcoin coin">
+                </div>
+
+                <h2 class="subtitle">Top Ten Cryptos</h2>
+
+                <div class="card-buttons">
+                    <button class="btn" id="showTopTen">Show</button>
+                    <button class="btn btn-outline" id="closeTopTen">Close</button>
+                </div>
+
+                <div id="topTenDiv"></div>
+            </div>
+
+            <div class="card">
+
+                <div class="card-image">
+                    <img src="https://source.unsplash.com/fiXLQXAhCfk" alt="chart candles">
+                </div>
+
+                <h2 class="subtitle">Top Exchanges</h2>
+
+                <div class="card-buttons">
+                    <button class="btn" id="showExchange">Show</button>
+                    <button class="btn btn-outline" id="closeExchange">Close</button>
+                </div>
+
+                <div id="exchangeDiv"></div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
