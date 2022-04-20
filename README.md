@@ -1,6 +1,6 @@
 # Crypto Dashboard   
 
- ➡️  [Dashboard Page](https://greg-r0driguez.github.io/crypto_dashboard/)  ⬅️
+ ➡️  [Dashboard Page](https://GregRodriguezJr.github.io/crypto_dashboard/)  ⬅️
 
 API from [Coin Gecko](https://www.coingecko.com/en/api)   
 Search box renders an information card from user input with cryptocurrency details.   
@@ -12,4 +12,4 @@ API call is for top 50 coins listed on exchange not all 13K plus coins.
 - Current price
 - Price change in last 24 hours   
 
-Buttons make another api call for top ten coins and top ten exchanges.
+Buttons make another API request for top ten coins and top ten exchanges.
