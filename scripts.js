@@ -43,13 +43,13 @@ closeExBtn.addEventListener('click', () => {
 })
 
 window.onload = () => {
-    const searchFieldEl = document.querySelector('#searchField')
+    const form = document.querySelector('form')
 
-    searchFieldEl.addEventListener('keyup', (e) => {
-        if(e.key === 'Enter') {
-            getSearchedCoin(searchFieldEl.value)
-            searchFieldEl.value = ""
-        }
+    form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const searchFieldEl = document.querySelector('#searchField')
+            getSearchedCoin(searchFieldEl.value);
+            searchFieldEl.value = "";
     })
 }
 
