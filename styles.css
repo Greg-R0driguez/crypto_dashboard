@@ -25,13 +25,6 @@ main {
     margin: 0 auto;
 }
 
-.header {
-    text-align: center;
-    padding: 1.5em;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, 
-                rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
 .title {
     color: var(--blue-color);
     font-size: 1.25rem;
@@ -43,28 +36,30 @@ main {
     padding: .5em;
 }
 
-span {
-    color: var(--orange-color);
-}
-
 footer {
     padding: 2.5em;
 }
 
-/* search bar*/
+/* Header */
+
+.header {
+    text-align: center;
+    padding: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, 
+                rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+span {
+    color: var(--orange-color);
+}
+
+/* Form Search Bar*/
 
 .search-bar {
     display: flex;
     flex-direction: column;
-    padding: 2em;
+    padding: 2em 0;
     align-items: center;
-}
-
-input {
-    border: none;
-    border-radius: 10px;
-    padding: .65em 1.5em;
-    font-size: 1rem;
 }
 
 label {
@@ -72,6 +67,17 @@ label {
     font-weight: 600;
     margin: .5em;
 }
+
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Search Results Cards */
 
 #searchResultsDiv {
     display: flex;
@@ -111,7 +117,7 @@ label {
     color: red;
 }
 
-/* Card */
+/* Exchange Card */
 
 .card-grid {
     display: grid;
