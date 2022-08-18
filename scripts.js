@@ -45,11 +45,10 @@ closeExBtn.addEventListener('click', () => {
 window.onload = () => {
     const searchFieldEl = document.querySelector('#searchField')
 
-    searchFieldEl.addEventListener('keyup', (e) => {
-        if(e.key === 'Enter') {
-            getSearchedCoin(searchFieldEl.value)
-            searchFieldEl.value = ""
-        }
+    searchFieldEl.addEventListener('submit', (e) => {
+            e.preventDefault();
+            getSearchedCoin(searchFieldEl.value);
+            searchFieldEl.value = "";
     })
 }
 
